@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database Normalistaion</title>
+</head>
+<body>
+    <div style="height:20px;width:100vw"></div>
+    <div class="wrapper">
+        <div class="liquidGlass-wrapper navigation">
+            <div class="liquidGlass-effect"></div>
+            <div class="liquidGlass-tint"></div>
+            <div class="liquidGlass-shine"></div>
+            <div class="liquidGlass-text">
+                <div class="navigation">
+                    <ul>
+                        <li>Database normalistaion</li>
+                        <li>1NF</li>
+                        <li>2NF</li>
+                        <li>3NF</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Database Normalistaion</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Deffinition</h3>
+                <p>Database normalisation is the process of organising data into related tables to reduce duplication and improve integrity.</p>
+            </div>
+            <div class="card">
+                <h3>Example</h3>
+                <p>If TeacherRoom depends on TeacherName instead of StudentID, move it to a separate table.</p>
+            </div>
+        </div>
+
+        <h2>First Normal Form (1NF)</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>No repeating records</h3>
+                <p>Each records must be unique and must not be identical to any others.</p>
+            </div>
+            <div class="card">
+                <h3>Each field contains only one value</h3>
+                <p>A field in the table must only contain one value per record and no more.</p>
+            </div>
+            <div class="card">
+                <h3>No repeating columns</h3>
+                <p>Each column cannot be a duplicate of the late. Such as: subject1, subject2, subject3</p>
+            </div>
+        </div>
+
+        <h2>Seconds Normal Form (2NF)</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Must already be in 1NF</h3>
+                <p>Must already follow all the rules of First Normal Form</p>
+            </div>
+            <div class="card">
+                <h3>Each field contains only one value</h3>
+                <p>Basically no values </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
